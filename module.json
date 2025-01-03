@@ -1,0 +1,108 @@
+{
+  "id": "dnd-scions-elemental-evil",
+  "title": "Scions of Elemental Evil",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-dungeon-masters-guide",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p><i>Scions of Elemental Evil</i> is part of a yearlong celebration of Dungeons &amp; Dragons and its 50th anniversary. This adventure uses the 2024 <i>Player’s Handbook</i>, along with the Free Rules necessary to play this adventure.</p>",
+  "authors": [
+    {
+      "name": "Win Roedily",
+      "email": "valgavinproduction@gmail.com",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/valGavin/dnd-scions-elemental-evil",
+  "manifest": "https://github.com/valGavin/dnd-scions-elemental-evil/releases/latest/download/module.json",
+  "download": "https://github.com/valGavin/dnd-scions-elemental-evil/releases/download/1.0/dnd-scions-elemental-evil.zip",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-scions-elemental-evil/assets/art/scions-of-elemental-evil-cover.webp",
+      "thumbnail": "modules/dnd-scions-elemental-evil/assets/art/scions-of-elemental-evil-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "soee-adventures",
+      "label": "Scions of Elemental Evil",
+      "path": "packs/soee-adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "soee-characters",
+      "label": "Premade Characters",
+      "path": "packs/soee-characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "soee-creatures",
+      "label": "Creatures",
+      "path": "packs/soee-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Scions of Elemental Evil",
+      "color": "#2c262b",
+      "sorting": "m",
+      "packs": [
+        "soee-adventures",
+        "soee-characters",
+        "soee-creatures"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "SoEE": "Scions of Elemental Evil"
+      }
+    }
+  }
+}
